@@ -1,5 +1,5 @@
 #!/bin/bash
-#prueba de script
+
 git config --global core.autocrlf input
 # Evaluación de cambios en el repositorio
 if git diff-index --quiet HEAD --; then
