@@ -1,5 +1,5 @@
 #!/bin/bash
-ssss
+
 # Evaluación de cambios en el repositorio
 if git diff-index --quiet HEAD --; then
     Alerta="No se realizaron commits."
